@@ -1,0 +1,172 @@
+/* defult-css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+.main-div{
+
+    text-align: center;
+    margin: 32px auto;
+    border: 3px solid blue;
+    width: 900px;
+}
+.same-design{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: .4s;
+    line-height: 200px;
+}
+
+
+/* hover-efect */
+.main-div .div-1:hover{
+    transform: translate(-30px, 7px);
+}
+
+.main-div .div-2:hover{
+    transform: rotate(20deg);
+}
+
+.main-div .div-3:hover{
+    transform: skew(10deg, 5deg);
+}
+.main-div .div-4:hover{
+    transform: scale(1.5);
+}
+
+
+/* image- Transform-animation */
+.image-div{ 
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid blue;
+    padding: 25px;
+}
+.image-div img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .4s;
+}
+.image-div img:hover{
+    transform: scale(1.2) rotate(360deg);
+    
+}
+
+/* transform-secend- */
+.main-div2{
+
+    text-align: center;
+    margin: 32px auto;
+    border: 5px solid red;
+    width: 900px;
+}
+.comon-div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: .4s;
+    line-height: 200px;
+}
+.main-div2 .div-1 {
+    transform: translate(-30px, 7px);
+
+}
+.main-div2 .div-2 {
+    transform: rotate(0deg);
+    background-color: aqua;
+    color: red;
+}
+.main-div2 .div-3 {
+    transform: skew(10deg, 30deg);
+    background-color: yellow;
+    color: black;
+}
+.main-div2 .div-4 {
+    transform: scale(1);
+    background-color: blue;
+    color: yellow;
+}
+
+/* hover-efect */
+.main-div2 .div-1:hover{
+    transform: translate(-30px, 7px);
+}
+
+.main-div2 .div-2:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+
+.main-div2 .div-3:hover{
+    transform: skew(10deg, 5deg);
+}
+.main-div2 .div-4:hover{
+    transform: scale(1.5);
+}
+
+
+/* step-section */
+.wrapper-box{
+    text-align: center;
+    margin: 87px 0px;
+    border: 2px solid green;
+    display: inline-block;
+    margin-left: 210px;
+    padding: 50px 0px;
+}
+.wrapper-box .step-div{
+    width: 120px;
+    height: 60px;
+    background-color: green;
+    margin: 5px 119px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: .4s;
+    line-height: 50px;
+}
+.wrapper-box .step-div1{
+    transform: rotate(-45deg);
+    
+}
+.wrapper-box .step-div2{
+    transform: scale(1);
+}
+.wrapper-box .step-div3{
+    transform: rotate(45deg);
+}
+
+.wrapper-box .step-div1:hover{
+    background-color: #26829f;
+    transform: rotate(0deg) scale(2);
+}
+.wrapper-box .step-div2:hover{
+    background-color: #26829f;
+    transform: scale(2);
+}
+.wrapper-box .step-div3:hover{
+    background-color: #26829f;
+    transform: rotate(0deg) scale(2);
+}
+
+
